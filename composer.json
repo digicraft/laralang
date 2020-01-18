@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Themsaid\\Laralang\\": "src"
+            "Digicraft\\Laralang\\": "src"
         },
         "classmap": [
             "tests"
