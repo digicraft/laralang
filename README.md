@@ -27,14 +27,14 @@ $ composer require digicraft/laralang
 Once done, add the following line in your providers array of `config/app.php`:
 
 ```php
-Themsaid\Laralang\LaralangServiceProvider::class
+Digicraft\Laralang\LaralangServiceProvider::class
 ```
 
 This package has a single configuration option that points to the `resources/lang` directory, if only you need to change
 the path then publish the config file:
 
 ```
-php artisan vendor:publish --provider="Themsaid\Laralang\LaralangServiceProvider"
+php artisan vendor:publish --provider="Digicraft\Laralang\LaralangServiceProvider"
 ```
 
 ## Usage
