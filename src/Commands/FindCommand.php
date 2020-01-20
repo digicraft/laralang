@@ -113,7 +113,7 @@ class FindCommand extends Command
                     $original[$languageKey] = $values[$languageKey];
                 }else{
                     $original[$languageKey] =
-                        (isset($filesContent[$fileName][$languageKey][$key])) ? $filesContent[$fileName][$languageKey][$key] : ''
+                        (isset($filesContent[$fileName][$languageKey][$key])) ? $filesContent[$fileName][$languageKey][$key] : '';
                 }
             }
 
