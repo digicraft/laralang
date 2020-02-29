@@ -7,13 +7,6 @@ translation lines with ease. Taking care of a multilingual interface is not a he
 <br>
 
 <img src="http://s16.postimg.org/mghfe2v3p/ezgif_com_optimize.gif" alt="Laravel Laralang">
-<br>
-<a href="https://travis-ci.org/themsaid/laravel-laralang"><img src="https://travis-ci.org/themsaid/laravel-laralang.svg?branch=master" alt="Build Status"></a>
-<a href="https://styleci.io/repos/55088784"><img src="https://styleci.io/repos/55088784/shield?style=flat" alt="StyleCI"></a>
-<a href="https://packagist.org/packages/themsaid/laravel-laralang"><img src="https://poser.pugx.org/themsaid/laravel-laralang/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/themsaid/laravel-laralang"><img src="https://poser.pugx.org/themsaid/laravel-laralang/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/themsaid/laravel-laralang"><img src="https://poser.pugx.org/themsaid/laravel-laralang/license.svg" alt="License"></a>
-
 </p>
 
 ## Installation
@@ -27,7 +20,7 @@ $ composer require digicraft/laralang
 Once done, add the following line in your providers array of `config/app.php`:
 
 ```php
-Digicraft\Laralang\LaralangServiceProvider::class
+Digicraft\Laralang\LaralangServiceProvider::class,
 ```
 
 This package has a single configuration option that points to the `resources/lang` directory, if only you need to change
@@ -159,7 +152,14 @@ This will rename `users.name` to be `users.full_name`, the console will output a
 
 `laralang:sync`, `laralang:missing`, `laralang:trans`, and `laralang:remove` will update your language files by writing them completely, meaning that any comments or special styling will be removed, so I recommend you backup your files.
 
-## Web interface
+## To Do
 
-If you want a web interface to manage your language files instead, I recommend [Laravel 5 Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
-by [Barry vd. Heuvel](https://github.com/barryvdh).
+- [ ] Web interface
+- [ ] Default Lang files
+- [ ] Command for new file creation in all langs
+- [ ] Database working system
+- [ ] Config for switch inter DB and Files
+
+
+## Thanks
+This library is based on the [work](https://github.com/themsaid/laravel-langman) by [Mohamed Said](https://themsaid.github.io), and carried out to extend the project initiated by him, as well as to support the new versions of Laravel Framework

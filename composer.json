@@ -6,14 +6,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "SlimCloud",
-            "email": "support@slimcloud.store",
-            "homepage": "https://slimcloud.store"
+            "name": "DigiCraft Team",
+            "email": "support@digicloud.store",
+            "homepage": "https://digicloud.store"
         },
         {
-            "name": "Mohamed Said",
-            "email": "theMohamedSaid@gmail.com",
-            "homepage": "https://themsaid.github.io"
+            "name": "Elias Peraza",
+            "email": "edpmath@digicloud.store"
         }
     ],
     "require": {
